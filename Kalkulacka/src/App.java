@@ -36,7 +36,7 @@ public class Main {
             System.out.print("Zadaj druhe cislo: ");
             double b = scanner.nextDouble();
 
-            // Použitie funkcií umiestnených vyššie
+            // Použitie fcii
             if (operacia.equals("+")) System.out.println("Vysledok: " + (int) scitaj(a, b));
             else if (operacia.equals("-")) System.out.println("Vysledok: " + (int) odcitaj(a, b));
             else if (operacia.equals("*")) System.out.println("Vysledok: " + (int) nasob(a, b));
