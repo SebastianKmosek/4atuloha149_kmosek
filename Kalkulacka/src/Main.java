@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    // fcie
+    // Fcie
     static double scitaj(double a, double b) {
         return a + b;
     }
@@ -24,7 +24,6 @@ public class Main {
         System.out.print("Chces pocitat? (A/N): ");
         String u = scanner.next();
 
-        
         while (u.equalsIgnoreCase("A")) {
 
             System.out.print("Vyber operaciu (+, -, *, /): ");
@@ -36,7 +35,7 @@ public class Main {
             System.out.print("Zadaj druhe cislo: ");
             double b = scanner.nextDouble();
 
-            // Použitie funkcií umiestnených vyššie
+            // Použitie fcii
             if (operacia.equals("+")) System.out.println("Vysledok: " + (int) scitaj(a, b));
             else if (operacia.equals("-")) System.out.println("Vysledok: " + (int) odcitaj(a, b));
             else if (operacia.equals("*")) System.out.println("Vysledok: " + (int) nasob(a, b));
@@ -45,7 +44,6 @@ public class Main {
                 else System.out.println("Nulou sa neda delit!");
             } else System.out.println("Neplatna operacia!");
 
-        
             System.out.print("\nChces pocitat znova? (A/N): ");
             u = scanner.next();
         }
